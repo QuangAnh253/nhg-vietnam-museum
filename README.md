@@ -2,6 +2,8 @@
 
 A static website coded for the Vietnam National Museum project, based on a UX/UI design assignment by Nguyen Huong Giang – student at London College for Design & Fashion.
 
+![Website Preview](./preview.png)
+
 ## 👩‍🎨 Designer
 - **Nguyen Huong Giang** – UX/UI design, layout, branding
 
@@ -32,7 +34,7 @@ nhg-vietnam-museum/
 - [ ] Animations & Interactions (WIP)
 
 ## 🌐 Deployment
-You can view the preview at: [URL here if deployed]
+You can view the preview at: [https://quanganh253.github.io/nhg-vietnam-museum/]
 
 ## 📝 Notes
 This is an educational project and not affiliated with the actual Vietnam National Museum.

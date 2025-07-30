@@ -14,17 +14,18 @@ A static website coded for the Vietnam National Museum project, based on a UX/UI
 - Vanilla JavaScript
 
 ## 📁 Project Structure
+```
 nhg-vietnam-museum/
 ├── index.html
 ├── assets/
-│ ├── icon/
-│ ├── logo/
-│ └── img/
+│   ├── icon/ 
+│   ├── logo/ 
+│   └── img/
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── script.js
-
+│   └── script.js
+```
 ## 🚧 Status
 - [x] Responsive Layout
 - [x] UX Prototype Implementation

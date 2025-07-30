@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vietnam National Museum of History</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="assets/logo/logo-dark.svg"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="icon"
+      href="assets/logo/Logo-light.svg"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Phudu:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Franklin+Gothic+Book:ital,wght@0,400;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Franklin+Gothic+Medium:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <img src="assets/logo/logo-full.svg" alt="Museum Logo" class="logo" />
+      <nav class="navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#visit" class="nav-link">Visit</a>
+        <a href="#exhibition" class="nav-link">Exhibition</a>
+        <a href="#events" class="nav-link">Events</a>
+        <a href="#learn" class="nav-link">Learn</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#shop" class="nav-link">Shop</a>
+      </nav>
+      <div class="right-section">
+        <div class="language-container">
+          <div class="language-toggle" id="language-toggle">
+            <img
+              src="assets/img/flag_vn.png"
+              alt="Tiếng Việt"
+              class="flag-icon"
+            />
+            <span class="language-label">Tiếng Việt</span>
+            <span class="change-text">(Thay đổi)</span>
+          </div>
+          <div class="language-dropdown" id="language-dropdown">
+            <div class="arrow-up"></div>
+            <ul>
+              <li onclick="setLanguage('en')">
+                <img
+                  src="assets/img/flag_uk.png"
+                  alt="English"
+                  class="flag-icon"
+                />
+                English
+              </li>
+              <li onclick="setLanguage('zh')">
+                <img
+                  src="assets/img/flag_cn.png"
+                  alt="中文"
+                  class="flag-icon"
+                />
+                中文 (Chinese)
+              </li>
+              <li onclick="setLanguage('vn')">
+                <img
+                  src="assets/img/flag_vn.png"
+                  alt="Tiếng Việt"
+                  class="flag-icon"
+                />
+                Tiếng Việt
+              </li>
+            </ul>
+          </div>
+        </div>
+        <i class="fa fa-search" style="font-size: 36px"></i>
+        <button class="cta-button">BUY TICKETS</button>
+      </div>
+    </header>
+
+    <div id="fullpage">
+      <div class="section" id="section1">
+        <main class="main-content">
+          <section class="grid-container" data-el="div-1">
+            <div class="grid-wrapper">
+              <article class="grid-item orange-box">
+                <div class="icon-wrapper">
+                  <img
+                    src="assets/icon/V.svg"
+                    alt="Orange Icon"
+                    class="grid-icon"
+                  />
+                </div>
+              </article>
+              <article class="grid-item red-box">
+                <div class="icon-wrapper">
+                  <img
+                    src="assets/icon/N.svg"
+                    alt="Red Icon"
+                    class="grid-icon"
+                  />
+                </div>
+              </article>
+              <article class="grid-item blue-box">
+                <div class="icon-wrapper">
+                  <img
+                    src="assets/icon/M.svg"
+                    alt="Blue Icon"
+                    class="grid-icon"
+                  />
+                </div>
+              </article>
+              <article class="grid-item green-box">
+                <div class="icon-wrapper">
+                  <img
+                    src="assets/icon/H.svg"
+                    alt="Green Icon"
+                    class="grid-icon"
+                  />
+                </div>
+              </article>
+            </div>
+          </section>
+        </main>
+      </div>
+      <div class="section" id="section2">
+        <div class="slide">
+          <div class="main-container">
+            <span class="welcome">Welcome!</span>
+            <span class="heritage-history-culture">
+              Discover Vietnam’s rich heritage through centuries of history and
+              culture. Located in central Hanoi, the museum invites you to
+              explore artifacts, stories, and milestones that shaped the
+              nation’s identity.
+            </span>
+            <span class="opening">OPENING</span>
+            <span class="opening-hours">
+              Monday - Sunday<br />8 AM - 12 AM<br />1 PM - 5 PM
+            </span>
+            <div class="rectangle">
+              <span class="buy-tickets-now">BUY TICKETS now!</span>
+            </div>
+            <div class="n"></div>
+            <div class="rectangle-1"></div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="reunification-container">
+            <span class="reunification-current-event">current event</span>
+            <span class="reunification-educational-program">
+              Celebrating 50 years of reunification, the museum presents an
+              engaging educational program with interactive sessions and tours
+              that highlight Vietnam’s path to unity.
+            </span>
+            <div class="reunification-button">
+              <span class="reunification-learn-more">LEARN MORE</span>
+            </div>
+            <div class="reunification-background"></div>
+            <div class="reunification-overlay"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section3">
+        <div class="slide-container">
+          <div class="slide">
+            <div class="building-container">
+              <span class="building-title">buildings</span>
+              <div class="trang-tien"></div>
+              <span class="building-address">No.1 Trang Tien, Hoan Kiem</span>
+              <span class="building-description">
+                This building presents Vietnam’s history from prehistoric times
+                to the end of the Nguyen dynasty in 1945. Designed in
+                Indochinese architectural style, it houses rich collections of
+                artifacts from the Đông Sơn culture, Champa civilization, and
+                various feudal dynasties, offering a deep insight into early
+                Vietnamese heritage.
+              </span>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="building-section">
+              <span class="building-title">buildings</span>
+              <div class="building-image"></div>
+              <span class="building-address"
+                >216 Tran Quang Khai, Hoan Kiem</span
+              >
+              <span class="building-description">
+                Originally constructed in 1917 as the Indochina Department of
+                Trade, this building covers Vietnam's history from the mid-19th
+                century to the present. It features exhibits on the country's
+                struggles for independence, the Vietnam War, and post-war
+                reconstruction, including gifts to President Ho Chi Minh and the
+                Communist Party.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section4">
+        <div class="artifacts-container">
+          <span class="artifacts">Artifacts</span>
+          <div class="flex-row-bb">
+            <div
+              class="overlay-container"
+              style="top: 0; left: 1291px; width: 453.209px; height: 406px"
+            >
+              <div class="image"></div>
+              <div class="overlay label">
+                <div class="phoenix-head-terra">
+                  <span class="text-wrapper"
+                    >Statues of “Nghe” <br />(sacred animal)</span
+                  >
+                  <span class="span"
+                    >Bronze. 16th century<br />(Hanoi Museum)</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="overlay-container"
+              style="top: 2px; left: 299px; width: 363.791px; height: 404px"
+            >
+              <div class="default"></div>
+              <div class="overlay label">
+                <div class="phoenix-head-terra">
+                  <span class="text-wrapper"
+                    >PHOENIX HEAD <br />TERRA-COTTA.</span
+                  >
+                  <span class="span"
+                    >Ly dynasty, <br />11th – 13th centuries</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="overlay-container"
+              style="top: 212px; left: 683px; width: 424px; height: 616px"
+            >
+              <div class="lion-figurine"></div>
+              <div class="overlay label">
+                <div class="phoenix-head-terra">
+                  <span class="text-wrapper"
+                    >Lion figurine<br />Sandstone.</span
+                  >
+                  <span class="span"
+                    >Champa culture,<br />12th – 13th centuries</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="overlay-container"
+              style="top: 420px; left: 0px; width: 663.529px; height: 611px"
+            >
+              <div class="trong-don"></div>
+              <div class="overlay label">
+                <div class="phoenix-head-terra">
+                  <span class="text-wrapper">SAO VANG BRONZE DRUM</span>
+                  <span class="span">Dong Son culture</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="overlay-container"
+              style="top: 424px; left: 1127px; width: 327px; height: 401px"
+            >
+              <div class="asura"></div>
+              <div class="overlay label">
+                <div class="phoenix-head-terra">
+                  <span class="text-wrapper">Lion head<br />Terra-cotta</span>
+                  <span class="span"
+                    >Ly dynasty,<br />11th – 13th centuries</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="overlay-container"
+              style="top: 770px; left: 1474px; width: 405px; height: 270px"
+            >
+              <div class="empty"></div>
+              <div class="overlay label">
+                <div class="phoenix-head-terra">
+                  <span class="text-wrapper"
+                    >Miniature house<br />(Model of house)<br />Earthenware</span
+                  >
+                  <span class="span"
+                    >1st - 3rd centuries<br />Vietnam National Museum of
+                    History</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="overlay-container"
+              style="top: 851px; left: 683px; width: 771px; height: 517px"
+            >
+              <div class="goddess-uma"></div>
+              <div class="overlay label">
+                <div class="phoenix-head-terra">
+                  <span class="text-wrapper"
+                    >Statue depicting Goddess Uma defeating Mashia<br />Stone,
+                    terra-cotta</span
+                  >
+                  <span class="span"
+                    >8th – 9th centuries<br />Cat Tien, Lam Dong (Lam Dong
+                    Museum)</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section5">
+        Liên hệ
+        <div class="main-container">
+          <div class="flex-row-f">
+            <span class="contact-us">Contact us</span>
+            <span class="stay-in-touch">Stay in touch</span>
+          </div>
+          <div class="flex-row-af">
+            <span class="contact-info">
+              banbientap@baotanglichsu.vn<br />+84123456789<br />Bảo Tàng Lịch
+              Sử Quốc Gia<br />
+            </span>
+            <div class="envelope"></div>
+            <span class="track-happening">
+              If you want to keep track on what’s happening here from time to
+              time.
+            </span>
+            <div class="phone-call"></div>
+            <a
+              href="#Bảo Tàng Lịch Sử Quốc Gia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="facebook"></div>
+            </a>
+            <span class="email">Email</span>
+          </div>
+          <div class="line"></div>
+          <div class="rectangle_btn"><span class="sign-up">SIGN UP</span></div>
+          <div class="line-1"></div>
+          <div class="flex-row">
+            <span class="national-museum-history">
+              Vietnam National Museum of History
+            </span>
+            <span class="contact-us-2">Contact us</span>
+          </div>
+          <div class="flex-row-3">
+            <div class="home-visit">
+              <span class="br"><br /></span><span class="home">Home<br /></span>
+              <span class="br-4"><br /></span>
+              <span class="home-5">Visit<br /></span>
+            </div>
+            <span class="contact-info-6">
+              banbientap@baotanglichsu.vn<br />+84123456789<br />Bảo Tàng Lịch
+              Sử Quốc Gia<br />
+            </span>
+            <span class="exhibition-events">Exhibition<br /><br />Events</span>
+            <span class="learn-about">Learn<br /><br />About</span>
+            <span class="shop">Shop</span>
+            <div class="envelope-7"></div>
+            <div class="group-one"></div>
+            <div class="group-two"></div>
+            <div class="group-three"></div>
+            <div class="group"></div>
+            <div class="phone-call-8"></div>
+            <div class="facebook-9"></div>
+            <div class="line-a"></div>
+          </div>
+          <span class="copyright">
+            Copyright © Ministry of Culture, Sport and Tourism Webmaster:
+            Vietnam National Museum of History - License No. 176/GP-TTĐT cấp
+            ngày: 24/09/2020 Address: No. 1, Trang Tien - No. 216 Tran Quang
+            Khai, Hoan Kiem, Hanoi Email: banbientap@baotanglichsu.vn - Tel /
+            Fax: 84.024.38252853
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      new fullpage("#fullpage", {
+        autoScrolling: true,
+        navigation: true,
+        anchors: ["home", "about", "building", "artifacts", "contact"],
+        navigationTooltips: [
+          "Trang chủ",
+          "Giới thiệu",
+          "Toà nhà",
+          "Di vật",
+          "Liên hệ",
+        ],
+        showActiveTooltip: true,
+        afterLoad: function (origin, destination, direction) {
+          const sections = [
+            "home",
+            "about",
+            "building",
+            "artifacts",
+            "contact",
+          ];
+
+          document
+            .querySelector("header.main-header")
+            .classList.remove(
+              ...sections.map((section) => `${section}-header`)
+            );
+
+          if (sections.includes(destination.anchor)) {
+            document
+              .querySelector("header.main-header")
+              .classList.add(`${destination.anchor}-header`);
+          }
+        },
+      });
+    </script>
+  </body>
+</html>

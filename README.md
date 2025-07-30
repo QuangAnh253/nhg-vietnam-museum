@@ -29,6 +29,7 @@ nhg-vietnam-museum/
 ## 🚧 Status
 - [x] Responsive Layout
 - [x] UX Prototype Implementation
+- [ ] Animations & Interactions (WIP)
 
 ## 🌐 Deployment
 You can view the preview at: [URL here if deployed]
